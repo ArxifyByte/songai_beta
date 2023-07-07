@@ -125,7 +125,7 @@ const Header: React.FC<HeaderProps> = ({
                 onClick={handleLogout} 
                 className="bg-white px-6 py-2"
               >
-                Logout
+                Salir
               </Button>
               <Button 
                 onClick={() => router.push('/account')} 
@@ -145,7 +145,7 @@ const Header: React.FC<HeaderProps> = ({
                     font-medium
                   "
                 >
-                  Sign up
+                  Registrarse
                 </Button>
               </div>
               <div>
@@ -153,7 +153,7 @@ const Header: React.FC<HeaderProps> = ({
                   onClick={authModal.onOpen} 
                   className="bg-white px-6 py-2"
                 >
-                  Log in
+                  Iniciar sesión
                 </Button>
               </div>
             </>

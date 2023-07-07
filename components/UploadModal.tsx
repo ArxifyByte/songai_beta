@@ -70,7 +70,7 @@ const UploadModal = () => {
 
       if (songError) {
         setIsLoading(false);
-        return toast.error('Failed song upload');
+        return toast.error('Ha ocurrido un error al subir el audio');
       }
 
       // Upload image
@@ -87,7 +87,7 @@ const UploadModal = () => {
 
       if (imageError) {
         setIsLoading(false);
-        return toast.error('Failed image upload');
+        return toast.error('Ha ocurrido un error al subir la imagen');
       }
 
       
@@ -120,8 +120,8 @@ const UploadModal = () => {
 
   return (
     <Modal
-      title="Add a song"
-      description="Upload an mp3 file"
+      title="Añade una cancion"
+      description="Debes subir un archivo .mp3 o .wav"
       isOpen={uploadModal.isOpen}
       onChange={onChange}
     >
@@ -133,13 +133,13 @@ const UploadModal = () => {
           id="title"
           disabled={isLoading}
           {...register('title', { required: true })}
-          placeholder="Song title"
+          placeholder="Titulo de la cancion"
         />
         <Input
           id="author"
           disabled={isLoading}
           {...register('author', { required: true })}
-          placeholder="Song author"
+          placeholder="Autor de la cancion"
         />
         <div>
           <div className="pb-1">
@@ -168,7 +168,7 @@ const UploadModal = () => {
           />
         </div>
         <Button disabled={isLoading} type="submit">
-          Create
+          Crear
         </Button>
       </form>
     </Modal>

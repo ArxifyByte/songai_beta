@@ -45,12 +45,12 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
     setPriceIdLoading(price.id);
     if (!user) {
       setPriceIdLoading(undefined);
-      return toast.error('Must be logged in');
+      return toast.error('Debes iniciar sesión antes.');
     }
 
     if (subscription) {
       setPriceIdLoading(undefined);
-      return toast('Already subscribed');
+      return toast('Ya tienes un plan premium');
     }
 
     try {
@@ -70,7 +70,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
 
   let content = (
     <div className="text-center">
-      No products available.
+      No hay planes disponibles
     </div>
   )
 
@@ -104,7 +104,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
   if (subscription) {
     content = (
       <div className="text-center">
-        Already subscribed.
+        Ya tienes este plan
       </div>
     )
   }
