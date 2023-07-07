@@ -53,7 +53,7 @@ const Liked = async () => {
                   font-bold
                 "
               >
-                Liked Songs
+                Canciones que te gustan
               </h1>
             </div>
           </div>
