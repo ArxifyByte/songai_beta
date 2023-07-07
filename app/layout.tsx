@@ -14,8 +14,8 @@ import './globals.css'
 const font = Figtree({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Spotify Clone',
-  description: 'Spotify Clone',
+  title: 'SongAI',
+  description: 'Songai es la primera plataforma de música con canciones creadas por inteligencia artificial.',
 }
 
 export const revalidate = 0;
