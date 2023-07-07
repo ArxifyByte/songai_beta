@@ -81,7 +81,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
           if (!product.prices?.length) {
             return (
               <div key={product.id}>
-                No prices available
+                No disponible
               </div>
             );
           }
@@ -93,7 +93,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
               disabled={isLoading || price.id === priceIdLoading}
               className="mb-4"
             >
-              {`Subscribe for ${formatPrice(price)} a ${price.interval}`}
+              {`Suscríbete por ${formatPrice(price)} a ${price.interval}`}
             </Button>
           ))
         })}
@@ -111,8 +111,8 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
 
   return (
     <Modal
-      title="Only for premium users"
-      description="Listen to music with Spotify Premium"
+      title="Solo para usuarios registrados"
+      description="Escucha musica con nuestros planes premiums y no tan premiums"
       isOpen={subscribeModal.isOpen}
       onChange={onChange}
     >

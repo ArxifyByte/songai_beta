@@ -50,7 +50,7 @@ const UploadModal = () => {
       const songFile = values.song?.[0];
 
       if (!imageFile || !songFile || !user) {
-        toast.error('Missing fields')
+        toast.error('Faltan archivos')
         return;
       }
 
@@ -108,11 +108,11 @@ const UploadModal = () => {
       
       router.refresh();
       setIsLoading(false);
-      toast.success('Song created!');
+      toast.success('Cancion añadida');
       reset();
       uploadModal.onClose();
     } catch (error) {
-      toast.error('Something went wrong');
+      toast.error('Ha ocurrido un error');
     } finally {
       setIsLoading(false);
     }
@@ -143,7 +143,7 @@ const UploadModal = () => {
         />
         <div>
           <div className="pb-1">
-            Select a song file
+            Selecciona el archivo de audio
           </div>
           <Input
             placeholder="test" 
@@ -156,7 +156,7 @@ const UploadModal = () => {
         </div>
         <div>
           <div className="pb-1">
-            Select an image
+            Selecciona la imagen
           </div>
           <Input
             placeholder="test" 
