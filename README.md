@@ -19,4 +19,19 @@ npm run dev
 
 ## Licencia
 
-[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0)
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+Eres libre de:
+Compartir — copiar y redistribuir el material en cualquier medio o formato
+
+Bajo los siguientes términos:
+Reconocimiento : debe otorgar el crédito correspondiente , proporcionar un enlace a la licencia e indicar si se realizaron cambios . Puede hacerlo de cualquier manera razonable, pero no de ninguna manera que sugiera que el licenciante lo respalda a usted o su uso.
+
+No comercial : no puede utilizar el material con fines comerciales .
+
+No Derivatives : si remezcla, transforma o construye sobre el material, no puede distribuir el material modificado.
+
+Sin restricciones adicionales : no puede aplicar términos legales o medidas tecnológicas que restrinjan legalmente a otros de hacer cualquier cosa que permita la licencia.
+
+Aviso:
+No se dan garantías. Es posible que la licencia no le otorgue todos los permisos necesarios para el uso previsto. Por ejemplo, otros derechos como la publicidad, la privacidad o los derechos morales pueden limitar la forma en que utiliza el material.
