@@ -149,7 +149,7 @@ const UploadModal = () => {
             placeholder="test" 
             disabled={isLoading}
             type="file"
-            accept=".mp3"
+            accept=".mp3, .wav"
             id="song"
             {...register('song', { required: true })}
           />

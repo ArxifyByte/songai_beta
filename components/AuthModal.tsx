@@ -47,10 +47,10 @@ const AuthModal = () => {
         localization={{
           variables: {
             sign_up: {
-              email_label: "Direccion de email",
+              email_label: "Email",
               password_label: "Contraseña",
-              email_input_placeholder: "Aqui debe ir tu direccion de email",
-              password_input_placeholder: "Aqui debe ir tu contraseña",
+              email_input_placeholder: "Email",
+              password_input_placeholder: "Contraseña",
               button_label: "Registrarse",
               loading_button_label: "Registrandote ...",
               social_provider_text: "Inicia sesion rapidamente con  {{provider}}",
@@ -58,26 +58,26 @@ const AuthModal = () => {
               confirmation_text: "Te hemos enviado un email de confirmacion, revisa la carpeta spam."
             },
             sign_in: {
-              email_label: "Direccion de email",
+              email_label: "Email",
               password_label: "Contraseña",
-              email_input_placeholder: "Aqui debe ir tu direccion de email",
-              password_input_placeholder: "Aqui debe ir tu contraseña",
+              email_input_placeholder: "Email",
+              password_input_placeholder: "Contraseña",
               button_label: "Iniciar sesion",
               loading_button_label: "Iniciando sesion  ...",
               social_provider_text: "Inicia sesion rapidamente con  {{provider}}",
               link_text: "¿Ya tienes una cuenta? Inicia sesion",
             },
             magic_link: {
-              email_input_placeholder: "Tu direccion de email",
+              email_input_placeholder: "Tu direccion de correo electronico",
               button_label: "Enviar link de inicio de sesion rapido",
               loading_button_label: "Enviando ...",
               link_text: "Inicio de sesion rapido",
               confirmation_text: "Te hemos enviado un email, revisa la carpeta spam.",
             },
             "forgotten_password": {
-              "email_label": "Direccion de email",
+              "email_label": "Email",
               "password_label": "Contraseña ",
-              "email_input_placeholder": "Tu direccion de email",
+              "email_input_placeholder": "Email",
               "button_label": "Enviar las instrucciones para restablecer tu contraseña",
               "loading_button_label": "Enviando ...",
               "link_text": "¿Has olvidado tu contraseña?",
