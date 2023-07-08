@@ -79,7 +79,7 @@ create policy "Allow public read-only access." on products
 * Note: prices are created and managed in Stripe and synced to our DB via Stripe webhooks.
 */
 create type pricing_type as enum ('one_time', 'recurring');
-create type pricing_plan_interval as enum ('day', 'week', 'month', 'year');
+create type pricing_plan_interval as enum ('dia', 'semana', 'mes', 'año');
 create table prices (
   -- Price ID from Stripe, e.g. price_1234.
   id text primary key,

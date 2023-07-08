@@ -93,7 +93,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
               disabled={isLoading || price.id === priceIdLoading}
               className="mb-4"
             >
-              {`Suscríbete por ${formatPrice(price)} a ${price.interval}`}
+              {`Suscríbete por ${formatPrice(price)} al ${price.interval}`}
             </Button>
           ))
         })}
@@ -111,7 +111,7 @@ const SubscribeModal: React.FC<SubscribeModalProps> = ({
 
   return (
     <Modal
-      title="Solo para usuarios registrados"
+      title="Solo para usuarios premium"
       description="Escucha musica con nuestros planes premiums y no tan premiums"
       isOpen={subscribeModal.isOpen}
       onChange={onChange}
